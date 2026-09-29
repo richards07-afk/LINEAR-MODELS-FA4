@@ -70,7 +70,7 @@ p <- ggplot(diamonds, aes(x = carat, y = price, color = cut)) +
 p
 
 ggsave(
-  filename = "figures/diamond_price_vs_carat_by_cut.png",
+  filename = "diamond_price_vs_carat_by_cut.png",
   plot = p,
   width = 9,
   height = 6,
